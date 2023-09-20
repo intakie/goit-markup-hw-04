@@ -1,0 +1,382 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1440px;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.div {
+  display: flex;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--SLATE, #434455);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  background: #fff;
+}
+
+.header {
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  padding-top: 101px;
+  padding-bottom: 17px;
+  margin-right: 76px;
+
+}
+
+.second-logo {
+  display: inline-block;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  padding-top: 101px;
+  padding-bottom: 17px;
+  margin-right: 76px;
+  margin-bottom: 16px;
+}
+
+.web-logo {
+  color: #2e2f42;
+}
+
+.nav {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+.nav-list-item {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.nav-list-link {
+  padding: 24px 0;
+}
+
+.adress {
+  margin-left: 332px;
+  font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.adress-list {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+}
+
+.nav-list-item:hover {
+  color: #404bbf;
+}
+
+.nav-list-item:focus {
+  color: #404bbf;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.adress-list-item {
+  color: #434455;
+}
+
+.adress-list-item:hover {
+  color: #404bbf;
+}
+
+.adress-list-item:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background: var(--NAVY-BLUE, #2e2f42);
+  padding: 188px 0;
+}
+
+.title-one {
+  color: var(--WHITE, #fff);
+  /* width: 496px; */
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-left: 472px;
+  margin-bottom: 48px;
+  max-width: 496px;
+}
+
+/* button {
+  padding-left: 636px;
+  padding-right: 636px;
+  padding-bottom: 188px;
+} */
+
+.buy {
+  display: block;
+  margin: 0 auto;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.buy:hover {
+  background-color: #404bbf;
+}
+
+.buy:focus {
+  background-color: #404bbf;
+}
+
+.solution {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  
+}
+
+.solution-list {
+  padding-top: 120px;
+  padding-bottom: 179px;
+  display: flex;
+  /* align-items: flex-end; */
+  gap: 24px;
+}
+
+.solution-list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.sol-title {
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+  /* margin-bottom: 8px; */
+}
+
+.team {
+  background: var(--CLOUD, #f4f4fd);
+  padding: 120px 0;
+}
+
+.team-list {
+  display: flex;
+  /* align-items: flex-end; */
+  gap: 24px;
+  padding-bottom: 120px;
+}
+
+.title-three {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 120px;
+  /* padding-right: 639px;
+  padding-left: 639px; */
+  margin-bottom: 72px;
+}
+
+.team-list-item {
+  background: var(--WHITE, #fff);
+  border-radius: 0px 0px 4px 4px; 
+}
+
+.employee {
+  padding: 32px 0;
+}
+
+.name {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.profession {
+  text-align: center;
+}
+
+h3 {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.name {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 3 */
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.profession {
+  color: var(--SLATE, #434455);
+}
+
+.portfolio {
+  padding: 120px 0 120px 0;
+}
+
+.title-four {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 61px;
+  margin-bottom: 72px;
+  /* padding-left: 611px;
+  padding-right: 611px; */
+}
+
+.portfolio-list {
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  gap: 24px;
+  row-gap: 48px;
+  /* column-gap: 48px; */
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+
+.portfolio-list-item:first-child {
+  width: calc((100% - 48px) / 3);
+}
+
+.app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+}
+
+.section-title {
+  margin-bottom: 8px;
+}
+
+.logo-text {
+  color: var(--CLOUD, #f4f4fd);
+  padding-top: 17px;
+  width: 264px;
+  padding-bottom: 100px;
+}
+
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+  padding: 100px 0;
+}
+
+.studio-logo {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
