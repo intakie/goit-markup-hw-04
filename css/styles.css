@@ -144,7 +144,7 @@ ul {
   list-style-type: none;
 }
 
-.adress-list-item {
+.adress-list-item-link {
   color: #434455;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -296,7 +296,7 @@ h3 {
   /* gap: 24px;
   padding-bottom: 120px; */
 
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
   justify-content: center;
   align-items: center;
   gap: 32px;
