@@ -407,6 +407,8 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 24px;
+  width: 40px;
+  height: 40px;
 }
 
 .social-media-link {
@@ -561,11 +563,12 @@ h3 {
 .con-foot {
   display: flex;
   align-items: baseline;
-}
-
-.logo-p {
   margin-right: 120px;
 }
+
+/* .logo-p {
+  margin-right: 120px;
+} */
 
 .studio-logo {
   color: var(--CLOUD, #f4f4fd);
